@@ -313,7 +313,7 @@
 
 @media screen and (max-width: 768px) {
     .item img {
-        width: 50%;
+        width: 100%;
         height: 68%;
     }
 
@@ -375,8 +375,8 @@
     .about_left {
         text-align: center;
         width: 98%;
+        padding: 58px 0px 0px 0px;
         margin: 168px 4px 8px 9px;
-
     }
 
     .about_right {
@@ -395,7 +395,7 @@
     }
 
     .p-primary {
-        font-size: 23px;
+        font-size: 14px;
         font-family: "Mukta", sans-serif;
         line-height: 28px;
     }
@@ -434,11 +434,11 @@
     }
 
     .btn {
-        font-size: 11px;
-        margin: 31px 2px;
-        padding: 22px 86px;
+        font-size: 14px;
+        margin: 0px 22px 19px 0px;
+        padding: 17px 30px 15px 24px;
+        font-weight: 700;
     }
-
     .post {
         font-size: 28px;
         line-height: 1px;
@@ -503,10 +503,11 @@
     }
 
     .h-blog {
-        margin: 6px 9px;
-        font-size: 33px;
-        line-height: 43px;
+        margin: 0px 9px;
+        font-size: 16px;
+        line-height: 36px;
     }
+
 
     .p-blog {
         font-size: 15px;
@@ -762,10 +763,11 @@
         justify-content: space-between;
         align-items: center;
     }
+
     #Picture {
         margin: 68px 0px 0px 0px;
         padding: 0px 0px 0px 0px;
-    }    
+    }
 
     .offer_page .image_murale_5 img {
         width: 300px;
@@ -798,6 +800,28 @@
         padding: 0px;
         margin: 0px;
     }
+
+    .welcome_left p {
+        margin: 12px 0px;
+        padding: 0px;
+    }
+
+    .h-primary {
+        margin: 0px;
+        font-size: 17px;
+        line-height: 1.4;
+        padding: 0px 0px 0px;
+    }
+
+    .welcome_sec {
+        margin: 12px 0px 0px 0px;
+        display: flex;
+    }
+    .h-primary::first-letter {
+        font-size: 27px;
+    }
+
+
 
 }
 
@@ -840,7 +864,8 @@
     }
 
     .btn {
-        font-size: 12px;
+        font-size: 14px;
+        font-weight: 700;
         padding: 14px;
 
     }
@@ -859,10 +884,10 @@
     }
 
     .see_more {
-        font-size: 13px;
+        font-size: 14px;
+        font-weight: 700;
         padding: 13px 34px;
-        margin-top: 5%;
-        margin-bottom: 5%;
+        margin: 20px 2px 16px 45px;
     }
 
     .blog_sec {
@@ -874,6 +899,7 @@
     .contact_btn {
         font-size: 14px;
         padding: 11px 28px;
+        font-weight: 700;
         margin-bottom: 6%;
     }
 
@@ -1067,6 +1093,7 @@
         font-family: "Dancing Script", cursive;
         font-optical-sizing: auto;
     }
+
     .offer_page .h-blog1 {
         font-family: "El Messiri", sans-serif;
         font-optical-sizing: auto;
@@ -1075,85 +1102,101 @@
         line-height: 0px;
         font-size: 25px;
     }
-    .offer_page .h-blog1::first-letter{
+
+    .offer_page .h-blog1::first-letter {
         font-size: 40px;
     }
+
     .p-blog1 {
         padding: 0px;
         margin: 0px;
     }
+
     .offer_page .image2 img {
         width: 255px;
         height: 250px;
     }
+
     .offer_page .image1 {
         width: 300px;
         height: 250px;
         margin: 10px 0px 5px 0px;
     }
+
     .offer_page .image1 img {
         width: 255px;
         height: 250px;
     }
+
     .offer_page .image3 img {
         width: 255px;
         height: 250px;
     }
+
     .offer_page .image4 img {
         width: 255px;
         height: 250px;
     }
+
     .offer_page .image_murale_5 img {
         width: 255px;
         height: 250px;
     }
+
     .offer_page .image_murale_4 img {
         width: 255px;
         height: 250px;
         margin: 0px;
         padding: 0px;
     }
+
     .offer_page .image_murale_3 img {
         width: 255px;
         height: 250px;
         margin: 0px;
         padding: 0px;
     }
+
     .offer_page .image_murale_2 img {
         width: 255px;
         height: 250px;
         padding: 0px;
         margin: 0px;
     }
+
     .offer_page .h-primary1 {
         font-family: "El Messiri", sans-serif;
-  font-optical-sizing: auto;
+        font-optical-sizing: auto;
         font-size: 25px;
         letter-spacing: 1px;
         margin: 0px;
         padding-left: 0px;
     }
+
     .offer_page .h-primary1::first-letter {
         font-size: 40px;
-        
+
     }
+
     .p-primary2 {
         font-size: 16px;
         padding: 0px;
         margin: 0px 0px 14px 0px;
     }
+
     .offer_page .btn1 {
         font-size: 11px;
         margin: 0px 0px 13px 1px;
         padding: 8px 28px;
     }
+
     #Picture {
         margin: 13px 0px 0px 0px;
         padding: 0px;
     }
 }
 
-img{
+img {
     object-fit: cover;
     object-position: center;
 }
