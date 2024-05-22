@@ -261,10 +261,6 @@
         margin: 14px 0px;
     }
 
-    .welcome_left .btn {
-        margin: 0px 0px 20px;
-    }
-
     .blog_left img {
         width: 104%;
 
@@ -370,14 +366,29 @@
 
     .about_sec {
         flex-direction: column;
+
+        margin-top: 211px;
+        padding: 0px;
+    }
+    .welcome_right img {
+        width: 96%;
+        padding: 8px 0px 0px 0px;
     }
 
     .about_left {
-        text-align: center;
-        width: 98%;
-        padding: 58px 0px 0px 0px;
-        margin: 168px 4px 8px 9px;
+        margin: 0px;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
     }
+
+
+    .about_page .image2-box {
+        position: sticky;
+        margin: 0px;
+        padding: 0px;
+    }
+
 
     .about_right {
         text-align: center;
@@ -391,7 +402,8 @@
 
     .about_right img {
         width: 100%;
-        margin: 0px;
+        margin-top: 8px;
+        padding: 0px;
     }
 
     .p-primary {
@@ -435,10 +447,13 @@
 
     .btn {
         font-size: 14px;
-        margin: 0px 22px 19px 0px;
+        /* margin: 0px 22px 19px 0px; */
         padding: 17px 30px 15px 24px;
         font-weight: 700;
+        margin: auto;
+        display: block;
     }
+
     .post {
         font-size: 28px;
         line-height: 1px;
@@ -500,6 +515,7 @@
         text-align: center;
         display: flow-root;
         padding: 0px;
+        margin: 10px 0px 0px 0px;
     }
 
     .h-blog {
@@ -528,9 +544,10 @@
     }
 
     .about_page .blog_left img {
-
         width: 100%;
-
+        height: 500px;
+        object-fit: inherit;
+        margin: auto;
     }
 
     .about_page .blog_right {
@@ -542,29 +559,31 @@
 
 
     .about_page .image1-box img {
-        margin-top: 21px;
-        width: 356px;
-        height: 318px;
-        margin-left: 127px;
-
+        margin: 0px;
+        width: 100%;
+        padding-top: 12px;
+        height: 0%;
     }
 
+
     .about_page .image2-box img {
-        margin-top: 42px;
-        width: 356px;
-        height: 318px;
-        margin-left: 28px;
+        margin: auto;
+        padding-top: 12px;
+        width: 68%;
+        height: 0%;
+        display: block;
     }
 
     .about_page .image1-box {
-        margin-top: -168px;
         padding: 0px;
+        margin: auto;
+        position: relative;
     }
 
     .about_page .about_right {
         width: 100%;
-        margin: 142px 0px 0px 0px;
-        padding: 169px 0px 0px 0px;
+        margin: 0px;
+        padding: 0px;
     }
 
     .about_page #navbar {
@@ -601,7 +620,7 @@
         font-size: 15px;
         line-height: 15px;
         padding: 0px;
-        margin: 124px 0px 0px 0px;
+        margin: 24px 0px 0px 0px;
     }
 
     .offer_page .blog_right1 {
@@ -817,8 +836,42 @@
         margin: 12px 0px 0px 0px;
         display: flex;
     }
+
     .h-primary::first-letter {
         font-size: 27px;
+    }
+
+    .contacct_logo {
+        margin-top: 0px;
+        padding-top: 4%;
+        font-size: 16px;
+        letter-spacing: 2px;
+    }
+
+    .contacct_logo::first-letter {
+        font-size: 40px;
+
+    }
+
+    .contact_btn {
+        font-size: 19px;
+        padding: 17px 58px;
+        margin-bottom: 3%;
+        margin-top: 7px;
+    }
+
+    .heding {
+        line-height: 33px;
+        letter-spacing: 2px;
+        font-size: 20px;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .heding::first-letter {
+
+        font-size: 30px;
+
     }
 
 
@@ -829,6 +882,11 @@
 
 
 @media screen and (max-width: 320px) {
+    .about_page .about_sec {
+        display: flex;
+        margin-top: 7px;
+    }
+
     #welcome_home {
         background-color: rgb(249, 218, 218);
         margin-right: 0px;
@@ -887,7 +945,8 @@
         font-size: 14px;
         font-weight: 700;
         padding: 13px 34px;
-        margin: 20px 2px 16px 45px;
+        margin-top: 5%;
+        margin-bottom: 5%;
     }
 
     .blog_sec {
@@ -1196,7 +1255,7 @@
     }
 }
 
-img {
+/* img {
     object-fit: cover;
     object-position: center;
-}
+} */
