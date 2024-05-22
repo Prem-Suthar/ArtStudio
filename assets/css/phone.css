@@ -367,7 +367,7 @@
     .about_sec {
         flex-direction: column;
 
-        margin-top: 211px;
+        margin-top: 161px;
         padding: 0px;
     }
     .welcome_right img {
@@ -567,16 +567,16 @@
 
 
     .about_page .image2-box img {
-        margin: auto;
+        margin: 0px;
         padding-top: 12px;
-        width: 68%;
+        width: 100%;
         height: 0%;
         display: block;
     }
 
     .about_page .image1-box {
         padding: 0px;
-        margin: auto;
+        margin: 0px;
         position: relative;
     }
 
@@ -795,7 +795,7 @@
 
     .offer_page .image_murale_4 {
         padding: 0px;
-        margin: 0px;
+        margin: auto;
         width: 300px;
     }
 
@@ -810,6 +810,15 @@
         width: 300px;
         height: 250px;
         margin: 0px;
+        padding: 0px;
+    }
+    .offer_page .image_murale_3 {
+       
+        margin: auto;
+        padding: 0px;
+    }
+    .offer_page .image_murale_2 {
+        margin: auto;
         padding: 0px;
     }
 
@@ -873,6 +882,19 @@
         font-size: 30px;
 
     }
+    #about_my {
+        margin-top: 146px;
+        padding: 0px;
+        
+    }
+    .about_page .about_sec {
+        display: flex;
+        margin-top: 12px;
+    }
+    .offer_page .image_murale_5 {
+        margin: auto;
+        padding: 0px;
+    }
 
 
 
@@ -910,7 +932,7 @@
 
     .about_left {
         width: 100%;
-        margin: 156px 1px 0px 2px;
+        margin: 8px 1px 0px 2px;
     }
 
     .about_right img {
@@ -1106,18 +1128,18 @@
     }
 
     .about_page .image1-box img {
-        width: 253px;
+        width: 100%;
         padding: 0px;
-        height: 227px;
-        margin: 27px 0px 0px 0px;
-
+        /* height: 227px; */
+        margin: 85px 0px 0px 0px;
+        padding: 0px;
     }
 
     .about_page .image2-box img {
-        margin-top: 18px;
-        width: 253px;
-        height: 220px;
-        margin-left: 24px;
+        /* margin-top: 18px; */
+        width: 100%;
+        /* height: 220px; */
+        /* margin-left: 24px; */
     }
 
     .about_page .p-primary {
