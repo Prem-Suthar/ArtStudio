@@ -938,28 +938,26 @@ hr {
 }   
   
 
-.blog_page .h-primary6 {
+.blog_page .h-primary5 {
     font-size: 50px;
-    margin-top: 21%;
+    margin-top: 6%;
   
 }
 .blog_page .p-primary5{   
-    font-size: 14px;
+    font-size: 16px;
     width: 50%;
     
     margin: auto;
     padding: 0px;
 }
-.blog_page1 .bti {
-    margin: 1% 0% 0% 0%;
-    padding: 10px 15px 10px 15px;
+.blog_page .bti {
+    margin: 2% 0% 2% 0%;
+    padding: 15px 20px 15px 20px;
     border: none;
-    background-color: unset;
     font-size: 20px;
     cursor: pointer;
     border-radius: 14px;
-    background-color: #0707072b;
-    
+    background-color: rgb(255 255 255 / 36%);
 }
 .blog_page1 .bti:hover {
     background-color: rgb(116, 116, 116);
@@ -988,16 +986,20 @@ hr {
     letter-spacing: 4px;
 }
 
-.blog_page1 .icon ul {
+.blog_page .icon ul {
     display: flex;
     list-style: none;
     justify-content: center;
-    padding: 21px 0px 0px 0px;
-    margin: 0px;
+    padding: 0px;
+    margin-top: 70px;
 }
-.blog_page1  .heding {
+.blog_page1 .heding {
     line-height: 0px;
-    font-size: 17px;
+    margin: 0px 0px 0px 0px;
+    font-size: 25px;
+    letter-spacing: 2px;
+    padding: 18px;
+    color: rgb(255, 255, 255);
 }
 /* end :: Blog pah-primary1ge */
 

@@ -538,7 +538,7 @@
         width: 100%;
         text-align: center;
         display: flow-root;
-        padding: 0px;
+        padding: 0px 0px 15px 0px;
         margin: 10px 0px 0px 0px;
     }
 
@@ -879,11 +879,11 @@
         margin-top: 0px;
         padding-top: 4%;
         font-size: 16px;
-        letter-spacing: 2px;
+        letter-spacing: 1px;
     }
 
     .contacct_logo::first-letter {
-        font-size: 40px;
+        font-size: 25px;
 
     }
 
