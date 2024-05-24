@@ -938,9 +938,9 @@ hr {
 }   
   
 
-.blog_page .h-primary5 {
+.blog_page .h-primary6 {
     font-size: 50px;
-    margin-top: 11%;
+    margin-top: 21%;
   
 }
 .blog_page .p-primary5{   
@@ -992,7 +992,7 @@ hr {
     display: flex;
     list-style: none;
     justify-content: center;
-    padding: 12px;
+    padding: 21px 0px 0px 0px;
     margin: 0px;
 }
 .blog_page1  .heding {
@@ -1000,6 +1000,10 @@ hr {
     font-size: 17px;
 }
 /* end :: Blog pah-primary1ge */
+
+
+
+
 .contact_page{
     margin: 0px;
     padding: 0px;
@@ -1010,36 +1014,44 @@ hr {
     /* opacity: 0.10; */
     
 } 
-.blog_page{
+.contact1 {
+    margin-top: 6%;
     text-align: center;
     font-weight: bold;
-    color: rgb(255 255 255 / 74%);
-    
-}   
+    color: rgb(0 0 0 / 55%);
+    align-content: space-between;
+}
+.contact1 .Art_stadio a {
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    margin: 0px 0px -24px 0px;
+    display: block;
+    color: #000;
+    text-align: center;
+    text-decoration: none;
+    font-size: 50px;
+}
   
 
-.contact_page .h-primary5 {
-    font-size: 50px;
-    margin-top: 12%;
+.contact_page .h-primary6 {
+    font-size: 4rem;
+    font-weight: bolder;
+    margin: 0%;
 }
-.contact_page .p-primary5{   
-    font-size: 14px;
+.contact_page .p-primary5 {
+    font-size: 1.2rem;
     width: 50%;
-    
     margin: auto;
-    padding: 0px;
+    padding: 14px;
 }
 .contact_page .bti {
-    margin: 1% 0% 0% 0%;
-    padding: 10px 15px 10px 15px;
+    margin: 2% 0% 2% 0%;
+    padding: 15px 20px 15px 20px;
     border: none;
-    background-color: unset;
     font-size: 20px;
     cursor: pointer;
     border-radius: 14px;
     background-color: rgb(140 160 141 / 36%);
-
-    
 }
 .contact_page .bti:hover {
     background-color: rgb(116, 116, 116);
@@ -1066,23 +1078,32 @@ hr {
 .contact_page .icon {
     display: flex;
     text-align: center;
-    margin-top: 50px;
+    margin-top: 58px;
     padding: 0px;
     letter-spacing: 4px;
 }
 
-.contact_page .icon ul li {
+.contact_page .icon ul{
     display: flex;
     list-style: none;
     justify-content: center;
-    padding: 12px;
+    padding: 0px;
+    margin: 0px;
+}
+.contact_page .icon ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    padding: 0px;
     margin: 0px;
 }
 
-.contact_page  .heding {
+.contact_page .heding {
     line-height: 0px;
-    margin: 0px;
-    font-size: 17px;
+    margin: 12px;
+    font-size: 25px;
+    letter-spacing: 2px;
+    padding: 18px;
+    color: rgb(255, 255, 255);
 }
 .contact_page .heding2 a{
     color: rgba(255, 255, 255, 0.76);

@@ -901,9 +901,9 @@
     }
     .blog_page .h-primary5 {
         font-size: 22px;
-        margin-top: 23%;
+        margin-top: 15%;
         letter-spacing: 2px;
-        line-height: 21px;
+        line-height: 20px;
     }
     .blog_page .p-primary5 {
         font-size: 14px;
@@ -940,7 +940,7 @@
        
     }
     .blog_page1 .icon ul {
-        padding: 41px 0px 0px 0px;
+        padding: 24px 0px 0px 0px;
         margin: 0px;
     }
     .blog_page1 a {
@@ -953,6 +953,7 @@
         font-weight: bold;
         border-radius: 14px;
         background-color: rgb(33 59 34 / 64%);
+        margin: 0px;
     }
     .contact_page .heding {
         line-height: 28px;
@@ -970,6 +971,10 @@
         font-size: 20px;
         margin: 0px;
         padding: 0px;
+    }
+    .blog_page .h-primary6 {
+        font-size: 25px;
+        margin-top: 23%;
     }
 }
 
@@ -1349,10 +1354,10 @@
         padding: 0px;
     }
     .contact_page .heding {
-        line-height: 79px;
+        line-height: 0px;
         font-size: 12px;
         letter-spacing: 2px;
-        margin: 0px;
+        margin: 76px 0px 0px 0px;
         padding: 0px;
     }
     .contact_page .heding::first-letter {
@@ -1381,12 +1386,16 @@
         font-size: 14px;
     }
     .contact_page .icon {
-        margin-top: 7px;
-        padding: 59px 0px 0px 0px;
+        margin-top: 0px;
+        padding: 0px 0px 0px 0px;
     }
     .contact_page .icon ul li{
         margin: 0px;
         padding: 0px;
+    }
+    .blog_page .h-primary6 {
+        font-size: 18px;
+        margin-top: 50%;
     }
 }
 
