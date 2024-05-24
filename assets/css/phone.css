@@ -243,6 +243,18 @@
         width: 100%;
         height: 100%;
     }
+    .contact1 {
+        margin-top: 23%;
+        color: rgba(255, 255, 255, 0.55);
+        align-content: space-between;
+    }
+    .contact_page .icon ul {
+        display: flex;
+        list-style: none;
+        justify-content: center;
+        padding: 0px;
+        margin-top: 70px;
+    }
 
     /* end :: About page */
 
@@ -302,6 +314,18 @@
         line-height: 21px;
         padding-right: 13px;
         margin: 0px 0px 0px 18px;
+    }
+    .contact_page .icon ul {
+        display: flex;
+        list-style: none;
+        justify-content: center;
+        padding: 0px;
+        margin-top: 70px;
+    }
+    .contact1 {
+        margin-top: 23%;
+        color: rgba(255, 255, 255, 0.55);
+        align-content: space-between;
     }
 
 }
