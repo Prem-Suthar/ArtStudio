@@ -1009,4 +1009,86 @@ hr {
     background-attachment: fixed;
     /* opacity: 0.10; */
     
+} 
+.blog_page{
+    text-align: center;
+    font-weight: bold;
+    color: rgb(255 255 255 / 74%);
+    
 }   
+  
+
+.contact_page .h-primary5 {
+    font-size: 50px;
+    margin-top: 12%;
+}
+.contact_page .p-primary5{   
+    font-size: 14px;
+    width: 50%;
+    
+    margin: auto;
+    padding: 0px;
+}
+.contact_page .bti {
+    margin: 1% 0% 0% 0%;
+    padding: 10px 15px 10px 15px;
+    border: none;
+    background-color: unset;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 14px;
+    background-color: rgb(140 160 141 / 36%);
+
+    
+}
+.contact_page .bti:hover {
+    background-color: rgb(116, 116, 116);
+    border-radius: 14px;
+    
+}
+/* .contact_page a{
+    font-size: 30px;
+    text-decoration: none;
+    color: rgb(255 253 253);
+    letter-spacing: 3px; 
+} */
+
+.contact_page .Art_stadio a {
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    margin: 0px 0px -24px 0px;
+    display: block;
+    color: #000;
+    text-align: center;
+    text-decoration: none;
+    font-size: 50px;
+}
+.contact_page .icon {
+    display: flex;
+    text-align: center;
+    margin-top: 50px;
+    padding: 0px;
+    letter-spacing: 4px;
+}
+
+.contact_page .icon ul li {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    padding: 12px;
+    margin: 0px;
+}
+
+.contact_page  .heding {
+    line-height: 0px;
+    margin: 0px;
+    font-size: 17px;
+}
+.contact_page .heding2 a{
+    color: rgba(255, 255, 255, 0.76);
+    margin: 0px;
+    padding: 0px;
+    
+}  
+
+

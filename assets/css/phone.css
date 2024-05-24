@@ -900,10 +900,10 @@
         font-size: 40px;
     }
     .blog_page .h-primary5 {
-        font-size: 24px;
-        margin-top: 10%;
+        font-size: 22px;
+        margin-top: 23%;
         letter-spacing: 2px;
-        line-height: 30px;
+        line-height: 21px;
     }
     .blog_page .p-primary5 {
         font-size: 14px;
@@ -947,8 +947,30 @@
         color: aliceblue;
         text-decoration: none;
     }
-
-
+    .contact_page .bti {
+        color: aliceblue;
+        font-size: 11px;
+        font-weight: bold;
+        border-radius: 14px;
+        background-color: rgb(33 59 34 / 64%);
+    }
+    .contact_page .heding {
+        line-height: 28px;
+        font-size: 17px;
+    }
+    .contact_page .icon {
+        margin-top: 28px;
+        padding: 54px 0px 0px 0px;
+    }
+    .contact_page .icon ul {
+        margin: 0px;
+        padding: 0px;
+    }
+    .contact_page .icon ul li a{
+        font-size: 20px;
+        margin: 0px;
+        padding: 0px;
+    }
 }
 
 
@@ -1324,6 +1346,46 @@
 
     #Picture {
         margin: 13px 0px 0px 0px;
+        padding: 0px;
+    }
+    .contact_page .heding {
+        line-height: 79px;
+        font-size: 12px;
+        letter-spacing: 2px;
+        margin: 0px;
+        padding: 0px;
+    }
+    .contact_page .heding::first-letter {
+        font-size: 25px;
+        
+    }
+    .contact_page .Art_stadio a {
+        margin: 10px 0px -24px 0px;
+        font-size: 29px;
+    }
+    .contact_page .icon ul {
+        padding: 0px;
+        margin: 0px;
+        background-color: rgb(229 226 226 / 26%);
+    }
+    .contact_page .bti {
+        background-color: rgb(147 155 147 / 64%);
+        margin-top: 50px;
+    }
+    .blog_page .p-primary5 {    
+        padding: 0px 0px 0px 0px;
+    }
+     .contact_page .icon ul li a{
+        padding: 5px;
+        font-size: 19px;
+        font-size: 14px;
+    }
+    .contact_page .icon {
+        margin-top: 7px;
+        padding: 59px 0px 0px 0px;
+    }
+    .contact_page .icon ul li{
+        margin: 0px;
         padding: 0px;
     }
 }
