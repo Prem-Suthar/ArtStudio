@@ -999,9 +999,14 @@ hr {
     line-height: 0px;
     font-size: 17px;
 }
-
-
-
-
-
 /* end :: Blog pah-primary1ge */
+.contact_page{
+    margin: 0px;
+    padding: 0px;
+    background-image: url(../media/contact.1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    /* opacity: 0.10; */
+    
+}   
