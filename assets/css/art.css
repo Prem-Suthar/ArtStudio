@@ -18,7 +18,9 @@ body {
     color: rgb(32, 32, 32);
 
 }
-
+a:focus-visible {
+ outline: unset;
+}
 .container {
     width: 80%;
     margin: auto;
@@ -923,19 +925,33 @@ hr {
 .blog_page1{
     margin: 0px;
     padding: 0px;
+    background-image: url(../media/blog2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}   
+
+.contact{
     background-image: url(../media/blog\ img2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    /* opacity: 0.10; */
-    
-}   
+}
+
 .blog_page{
+   
     text-align: center;
     font-weight: bold;
-    color: #000;
+    color: #ffffff;
     
 }   
+.ovrley{
+    position: absolute;
+    background-color: rgba(4, 4, 4, 0.274);
+    bottom: 0px;
+    top: 0px;
+    
+}
   
 
 .blog_page .h-primary5 {
@@ -946,26 +962,27 @@ hr {
 .blog_page .p-primary5{   
     font-size: 16px;
     width: 50%;
-    
     margin: auto;
     padding: 0px;
 }
 .blog_page .bti {
-    margin: 2% 0% 2% 0%;
-    padding: 15px 20px 15px 20px;
+    margin: 3% 0% 2% 0%;
+    padding: 15px 20px 15px 20px;font-family: Arial, Helvetica, sans-serif;
     border: none;
-    font-size: 20px;
+    font-size: 18px;
+    font-weight: 600;
     cursor: pointer;
     border-radius: 14px;
-    background-color: rgb(255 255 255 / 36%);
+    background-color: rgba(255, 255, 255, 0.991);
 }
 .blog_page1 .bti:hover {
     background-color: rgb(116, 116, 116);
     border-radius: 14px;
-    
+    color: #ffffff;
 }
 .blog_page1 a{
     text-decoration: none; 
+    
 }
 
 .blog_page1 .Art_stadio a {
@@ -973,10 +990,11 @@ hr {
     font-optical-sizing: auto;
     margin: 0px 0px -24px 0px;
     display: block;
-    color: #000;
+    color: #ffffff;
     text-align: center;
     text-decoration: none;
     font-size: 50px;
+   
 }
 .blog_page1 .icon {
     display: flex;
@@ -993,6 +1011,9 @@ hr {
     padding: 0px;
     margin-top: 70px;
 }
+.blog_page .icon ul a{
+    font-size: 20px;
+}
 .blog_page1 .heding {
     line-height: 0px;
     margin: 0px 0px 0px 0px;
@@ -1002,116 +1023,6 @@ hr {
     color: rgb(255, 255, 255);
 }
 /* end :: Blog pah-primary1ge */
-
-
-
-
-.contact_page{
-    margin: 0px;
-    padding: 0px;
-    background-image: url(../media/contact.1.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    /* opacity: 0.10; */
-    
-} 
-.contact1 {
-    margin-top: 6%;
-    text-align: center;
-    font-weight: bold;
-    color: rgb(0 0 0 / 55%);
-    align-content: space-between;
-}
-.contact1 .Art_stadio a {
-    font-family: "Dancing Script", cursive;
-    font-optical-sizing: auto;
-    margin: 0px 0px -24px 0px;
-    display: block;
-    color: #000;
-    text-align: center;
-    text-decoration: none;
-    font-size: 50px;
-}
   
-
-.contact_page .h-primary6 {
-    font-size: 4rem;
-    font-weight: bolder;
-    margin: 0%;
-}
-.contact_page .p-primary5 {
-    font-size: 1.2rem;
-    width: 50%;
-    margin: auto;
-    padding: 14px;
-}
-.contact_page .bti {
-    margin: 2% 0% 2% 0%;
-    padding: 15px 20px 15px 20px;
-    border: none;
-    font-size: 20px;
-    cursor: pointer;
-    border-radius: 14px;
-    background-color: rgb(140 160 141 / 36%);
-}
-.contact_page .bti:hover {
-    background-color: rgb(116, 116, 116);
-    border-radius: 14px;
-    
-}
-/* .contact_page a{
-    font-size: 30px;
-    text-decoration: none;
-    color: rgb(255 253 253);
-    letter-spacing: 3px; 
-} */
-
-.contact_page .Art_stadio a {
-    font-family: "Dancing Script", cursive;
-    font-optical-sizing: auto;
-    margin: 0px 0px -24px 0px;
-    display: block;
-    color: #000;
-    text-align: center;
-    text-decoration: none;
-    font-size: 50px;
-}
-.contact_page .icon {
-    display: flex;
-    text-align: center;
-    margin-top: 58px;
-    padding: 0px;
-    letter-spacing: 4px;
-}
-
-.contact_page .icon ul{
-    display: flex;
-    list-style: none;
-    justify-content: center;
-    padding: 0px;
-    margin: 0px;
-}
-.contact_page .icon ul li a{
-    text-decoration: none;
-    font-size: 20px;
-    padding: 0px;
-    margin: 0px;
-}
-
-.contact_page .heding {
-    line-height: 0px;
-    margin: 12px;
-    font-size: 25px;
-    letter-spacing: 2px;
-    padding: 18px;
-    color: rgb(255, 255, 255);
-}
-.contact_page .heding2 a{
-    color: rgba(255, 255, 255, 0.76);
-    margin: 0px;
-    padding: 0px;
-    
-}  
 
 

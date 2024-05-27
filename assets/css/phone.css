@@ -1018,6 +1018,9 @@
         color: rgb(255 255 255);
         align-content: space-between;
     }
+    .blog_page {
+        margin-top: -14%;
+    }
 }
 
 
@@ -1395,50 +1398,8 @@
         margin: 13px 0px 0px 0px;
         padding: 0px;
     }
-    .contact_page .heding {
-        line-height: 18px;
-        font-size: 12px;
-        letter-spacing: 2px;
-        margin: 3px 0px 0px 0px;
-        padding: 19px;
-    }
-    .contact_page .heding::first-letter {
-        font-size: 25px;
-        
-    }
-    .contact_page .Art_stadio a {
-        margin: 10px 0px -24px 0px;
-        font-size: 29px;
-    }
-    .contact_page .icon ul {
-        padding: 0px;
-        margin: 0px;
-        background-color: rgb(229 226 226 / 26%);
-    }
-    .contact_page .bti {
-        background-color: rgb(147 155 147 / 64%);
-        margin-top: 50px;
-    }
-    .blog_page .p-primary5 {    
-        padding: 0px 0px 0px 0px;
-    }
-     .contact_page .icon ul li a{
-        padding: 5px;
-        font-size: 19px;
-        font-size: 14px;
-    }
-    .contact_page .icon {
-        margin-top: 0px;
-        padding: 0px 0px 0px 0px;
-    }
-    .contact_page .icon ul li{
-        margin: 0px;
-        padding: 0px;
-    }
-    .contact_page .h-primary6 {
-        font-size: 29px;
-        font-weight: bolder;
-        margin: 0%;
+    .blog_page {
+        margin-top: 20%;
     }
 }
 
